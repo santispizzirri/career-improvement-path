@@ -8,12 +8,6 @@ This is a repository created with the intention of empowering the knowledge on A
 
 ## 🔹 LLM Foundations
 
-- [ ] Understand Transformer architecture (high-level)  
-  📚 Resources:
-  - The Illustrated Transformer: https://jalammar.github.io/illustrated-transformer/
-  - 3Blue1Brown – Attention & Transformers: https://www.youtube.com/watch?v=eMlx5fFNoYc
-  - Hugging Face LLM Course: https://huggingface.co/learn/llm-course
-
 - [ ] Understand tokens and context window  
   📚 Resources:
   - OpenAI Tokens Guide: https://platform.openai.com/docs/guides/tokens
@@ -191,6 +185,11 @@ This is a repository created with the intention of empowering the knowledge on A
 
 # 🟨 DOING
 (Move here what you're currently working on)
-
+- [ ] Understand Transformer architecture (high-level)  
+  📚 Resources:
+  - The Illustrated Transformer: https://jalammar.github.io/illustrated-transformer/
+  - 3Blue1Brown – Attention & Transformers: https://www.youtube.com/watch?v=eMlx5fFNoYc
+  - Hugging Face LLM Course: https://huggingface.co/learn/llm-course
+     
 # 🟩 DONE
 (Move here what you complete)
