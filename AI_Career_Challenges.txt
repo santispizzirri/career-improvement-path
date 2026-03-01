@@ -1,0 +1,89 @@
+AI Career Implementation Challenges
+==================================
+
+Objective: Apply your LLM, MLOps, and AI skills in concrete projects.
+
+---
+
+BEGINNER (Foundational Skills)
+------------------------------
+Goal: Practice LLM integration, API basics, and embeddings.
+
+1. **Simple Q&A API**
+   - Build a FastAPI app that answers questions over a small text.
+   - Use embeddings for retrieval.
+   - Dockerize the application.
+   - Optional: Log questions and answers to a file.
+
+2. **Document Summarizer**
+   - Input: plain text document.
+   - Output: short summary using a pre-trained LLM.
+   - Add basic input validation and error handling.
+
+3. **Token Counter**
+   - Script that counts tokens of user input.
+   - Estimate cost using a mock pricing formula.
+
+---
+
+INTERMEDIATE (Production-Style)
+--------------------------------
+Goal: Implement RAG pipelines, observability, and basic security.
+
+1. **RAG Knowledge Base API**
+   - Use LangChain or LlamaIndex.
+   - Store embeddings in Chroma, Pinecone, or Weaviate.
+   - Expose REST API for question answering.
+   - Add logging, error handling, and rate limiting.
+
+2. **Evaluation Pipeline**
+   - Create small evaluation dataset.
+   - Implement automatic evaluation of model responses.
+   - Track improvements over different prompts or models.
+
+3. **AI Agent with One Tool**
+   - Build a multi-step agent using LangChain.
+   - Use one external tool (e.g., calculator, search API).
+   - Maintain memory/state between steps.
+   - Implement basic input validation.
+
+---
+
+ADVANCED (Enterprise/Full MLOps)
+---------------------------------
+Goal: Deploy scalable, monitored, secure AI systems.
+
+1. **Production-Ready RAG Service**
+   - Containerized API deployed to cloud (Azure, AWS, or Fly.io).
+   - Observability: Prometheus metrics, request latency, token usage.
+   - CI/CD pipeline with automated testing.
+   - Canary deployment or blue/green strategy.
+
+2. **Multi-Tool AI Agent**
+   - Orchestrate multiple tools in a single workflow.
+   - Track prompt versions and maintain evaluation logs.
+   - Add fallback strategies for failed steps.
+
+3. **Security-Focused LLM Service**
+   - Implement prompt injection protection.
+   - Add authentication and role-based access.
+   - Monitor logs for abuse patterns.
+   - Ensure sensitive data is never sent to external APIs.
+
+---
+
+OPTIONAL EXTRA CHALLENGES
+--------------------------
+- Deploy the same RAG pipeline in Kubernetes with autoscaling.
+- Optimize inference cost using batch requests or caching.
+- Write a technical blog post documenting your project and architecture.
+- Contribute one small feature or improvement to an open-source LLM library.
+- Build a portfolio page showcasing your projects with diagrams and explanations.
+
+---
+
+Tips:
+- Treat each project as if it’s going to production.
+- Start small, then add complexity.
+- Keep a GitHub repo for each project.
+- Document architecture, trade-offs, and lessons learned.
